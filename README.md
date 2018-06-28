@@ -1,5 +1,3 @@
-# Fissssh.github.io
-
 # Fiss Project
 
 Fiss is a new social media app, dedicated to people who love fishing activities from around the world.
