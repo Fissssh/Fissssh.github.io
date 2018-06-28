@@ -41,18 +41,17 @@
                     <div class="row login-form">
                         <div class="col-md-4 col-xl-12 offset-md-4 offset-xl-0">
                             <h2 class="text-center form-heading" style="font-family:Comfortaa, cursive;">Let's work together with us</h2>
-                            <form class="custom-form">
-                                <div class="form-group"><input class="form-control" type="email" placeholder="Email"></div><textarea class="form-control" rows="14" name="message" placeholder="Message" style="height:120px;"></textarea>
-                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"></div>
-                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2"></div>
-                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-3"></div>
-                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-4"></div><small style="font-family:Catamaran, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp;Terms and Policies&nbsp;</small><button class="btn btn-light btn-block submit-button"
-                                    type="button" style="background-color:rgb(86,198,198);width:152px;font-family:Catamaran, sans-serif;">Contact us</button></form>
+                            <form method="post" action="MAILTO:arekelek9@gmail.com" enctype="text/plain" class="custom-form">
+                                <div class="form-group"><input class="form-control" type="email" placeholder="Email" required></div>
+                                <textarea class="form-control" rows="14" type="Message" name="Message" placeholder="Message" style="height:120px;" required></textarea>
+                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-4"></div>
+                                <small style="font-family:Catamaran, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp;Terms and Policies&nbsp;</small>
+                                <button class="btn btn-light btn-block submit-button" type="submit" value="send message" style="background-color:rgb(86,198,198);width:152px;font-family:Catamaran, sans-serif;">Contact us</button></form>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-xl-1 offset-xl-0"><img src="assets/img/github.gif"></div>
-                <div class="col-xl-5 offset-xl-2"><img src="assets/img/slacki.gif" style="padding:27px;"></div>
+                <div class="col-md-4 col-xl-1 offset-xl-0"><img src="assets/img/github.gif" onclick="window.open('https://github.com/Fissssh/Fissssh.github.io')"></div>
+                <div class="col-xl-5 offset-xl-2"><img src="assets/img/slacki.gif" style="padding:27px;" onclick="window.open('https://fissssh.slack.com')"></div>
             </div>
         </div>
     </div>
