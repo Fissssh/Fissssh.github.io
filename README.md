@@ -6,4 +6,4 @@ Fiss name itself is inspired from my brothers who like to find spot fishing, and
 
 Would you help us to development it, please contact us.
 
-# Let's work together with us. [Official Site Fiss Pages](http://Fissssh.github.io/)
+# Let's work together with us. [Official Fiss Pages](http://Fissssh.github.io/)
